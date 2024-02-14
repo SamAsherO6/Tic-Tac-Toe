@@ -53,12 +53,11 @@ int main()
 	cin.get();
 	return 0;
 }
-/*********************************************
-	FUNCTION TO RETURN GAME STATUS
-	1 FOR GAME IS OVER WITH RESULT
-	-1 FOR GAME IS IN PROGRESS
-	O GAME IS OVER AND NO RESULT
-**********************************************/
+	//FUNCTION TO RETURN GAME STATUS
+	//1 FOR GAME IS OVER WITH RESULT
+	//-1 FOR GAME IS IN PROGRESS
+	//O GAME IS OVER AND NO RESULT
+
 
 int checkwin()
 {
@@ -85,9 +84,9 @@ int checkwin()
 }
 
 
-/*******************************************************************
-     FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH GamerS MARK
-********************************************************************/
+
+     //FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH GamerS MARK
+
 
 
 void board()
@@ -107,6 +106,6 @@ void board()
 	cout << "     |     |     " << endl << endl;
 }
 
-/*******************************************************************
-				END OF PROJECT
-********************************************************************/
+
+				//END OF PROJECT
+
